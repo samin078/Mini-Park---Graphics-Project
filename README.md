@@ -1,18 +1,11 @@
-# Mini-Park — Graphics Project
+# Mini-Park — Graphics Project  
 
-Mini-Park is a computer graphics project developed using OpenGL. It simulates a small amusement park with interactive elements, lighting effects, and animated rides. The project demonstrates 3D modeling, transformations, and real-time user interaction.
+This is a Computer Graphics Lab project built using OpenGL and C++.  
+The project simulates an amusement park with interactive camera movement, lighting effects, and animated rides.
 
-## Features
-- **Camera System:** Move freely using keyboard controls with support for translation, rotation, and zoom.
-- **Dynamic Objects:** Toggle and control amusement park rides like the Ferris wheel (Nagordola) and swing (Dolna).
-- **Lighting Effects:** Multiple lighting options, including directional, point, and spotlight effects.
-- **Textures & Shading:** Objects have textures and custom shaders for better visuals.
-- **Transformations:** Objects can be translated, rotated, and scaled.
-- **Fractal Tree Rendering:** Uses recursion to generate trees with textured branches and leaves.
+## Keyboard Controls  
 
-## Controls
-
-### Camera Movement
+### Camera Movement  
 - `W` - Move forward  
 - `S` - Move backward  
 - `A` - Move left  
@@ -26,7 +19,7 @@ Mini-Park is a computer graphics project developed using OpenGL. It simulates a 
 - `Z` - Roll left  
 - `Q` - Roll right  
 
-### Lighting Controls
+### Lighting Controls  
 - `1` - Toggle directional light  
 - `2` - Turn on all point lights  
 - `3` - Turn off all point lights  
@@ -38,31 +31,50 @@ Mini-Park is a computer graphics project developed using OpenGL. It simulates a 
 - `9` - Enable ambient lighting  
 - `0` - Enable specular lighting  
 
-### Individual Light Controls
-- `Numpad 1` - Turn on point light 1  
-- `Numpad 2` - Turn off point light 1  
-- `Numpad 3` - Turn on point light 3  
-- `Numpad 4` - Turn off point light 3  
-- `Numpad 5` - Turn on point light 4  
-- `Numpad 6` - Turn off point light 4  
-- `Numpad 7` - Turn on point light 5  
-- `Numpad 8` - Turn off point light 5  
+### Object Toggles  
+- `F` - Toggle "Nagordola" (Ferris wheel)  
+- `G` - Toggle "Dolna" (Swing)  
 
-### Environment Toggles
-- `O` - Set night mode (enable specific lights)  
-- `P` - Disable night mode  
+### Environment Toggles  
+- `O` - Set night mode (turn on specific lights)  
+- `P` - Disable night mode (turn off specific lights)  
 
-### Object Toggles
-- `F` - Toggle Ferris wheel (Nagordola)  
-- `G` - Toggle swing (Dolna)  
-
-### Exit
+### Exit  
 - `Esc` - Close the application  
 
-## Implementation Details
-- Developed using **C++** with **OpenGL** and **GLFW**.
-- Uses **GLM** for mathematical operations like transformations and camera movement.
-- Implements **VAOs, VBOs, and shaders** for rendering objects.
-- Fractal trees are generated using recursion for a natural look.
+---
 
-This project demonstrates key computer graphics concepts and real-time rendering using OpenGL.
+## Screenshots  
+
+### Ferris Wheel (Nagordola)  
+![Ferris Wheel](screenshots/nagordola.png)  
+![Ferris Wheel Seat](screenshots/seat%20of%20nagordola.png)  
+
+### Swing & Slider  
+![Swing](screenshots/swing.png)  
+![Slider](screenshots/slider.png)  
+
+### Lighting & Effects  
+![Light Effect](screenshots/light%20effect.png)  
+![Lamp Post](screenshots/lamppost.png)  
+
+### Park Elements  
+![Counter](screenshots/counter.png)  
+![Entrance](screenshots/entrance.png)  
+![Fence](screenshots/fence.png)  
+![Tree](screenshots/tree.png)  
+![Grass Texture](screenshots/grass%20texture.png)  
+
+### Ride Animation & Effects  
+![Ride Round](screenshots/ride-round.png)  
+![Balloon Pop](screenshots/balloon%20pop.png)  
+
+### Overview of Mini-Park  
+![Overview](screenshots/overview.png)  
+
+---
+
+## How to Run  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/samin078/Mini-Park.git
